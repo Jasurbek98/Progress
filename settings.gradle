@@ -8,3 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Progress"
 include ':app'
+include ':iproapi'
+include ':iprofrag'
