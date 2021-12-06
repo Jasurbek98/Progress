@@ -7,6 +7,7 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
 import uz.jsoft.iproapi.IProBonusClient
 import uz.jsoft.iproapi.entities.DataWrapper
+import uz.jsoft.iprofrag.BonusFragment
 import uz.jsoft.progress.R
 import uz.jsoft.progress.data.MainRepositoryImpl
 import uz.jsoft.progress.databinding.ActivityMainBinding
