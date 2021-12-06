@@ -19,12 +19,13 @@ import uz.jsoft.progress.utils.DEVICE_ID
 
 class MainActivity : AppCompatActivity() {
 
-    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private lateinit var binding:ActivityMainBinding
     private val viewModel by lazy { initViewModel() }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         viewModel.isLoading.observe(this) {
