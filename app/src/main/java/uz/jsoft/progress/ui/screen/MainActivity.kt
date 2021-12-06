@@ -68,5 +68,5 @@ class MainActivity : AppCompatActivity() {
                 )
             )
         )
-    ).get(MainViewModel::class.java)
+    )[MainViewModel::class.java]
 }
